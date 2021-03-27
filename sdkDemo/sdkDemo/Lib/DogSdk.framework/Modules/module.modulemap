@@ -1,0 +1,6 @@
+framework module DogSdk {
+  umbrella header "DogSdk.h"
+
+  export *
+  module * { export * }
+}

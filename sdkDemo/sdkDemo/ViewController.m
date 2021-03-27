@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import <DogSdk/Dog.h>
+//#import <DogSdk/DogSdk.h>
 
 @interface ViewController ()
 
@@ -17,6 +19,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor redColor];
+    [Dog eat];
 }
 
 
